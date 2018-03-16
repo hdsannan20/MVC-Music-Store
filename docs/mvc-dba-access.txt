@@ -1,0 +1,10 @@
+Azure SQL Server
+
+host: enterprisecom.database.windows.net
+
+database name:MVCMusicStore
+
+username:mvcdba
+
+password:M*******20
+

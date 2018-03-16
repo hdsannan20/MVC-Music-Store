@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>MVC Music Store</h2>
+
+<ul>
+    <li>@Html.ActionLink("Rock", "Details", "Store", new { genre = "Rock" }, null)</li>
+    <li>@Html.ActionLink("Jazz", "Details", "Store", new { genre = "Jazz" }, null)</li>
+    <li>@Html.ActionLink("Blues", "Details", "Store", new { genre = "Blues" }, null)</li>
+</ul>
